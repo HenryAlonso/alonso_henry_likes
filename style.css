@@ -1,0 +1,58 @@
+p{
+font-size: 1.2em;
+font-weight: bold;
+}
+    p.total{
+        margin-left: 10px;
+    }
+
+#black{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    text-align: left;
+}
+#feed{
+    text-align: center;
+}
+.main_section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    flex-basis: 3;
+}
+.account{  
+    height: 250px;
+    text-align: center;
+    border: 3px solid black;
+    flex-grow: 1;
+}
+.account img{
+    height: 75px;
+    margin: 10px auto;
+}
+.content {
+    border: 3px solid black;
+    padding: 5px;
+    margin: 0 10px 10px;
+}
+.sidebyside{
+    display: flex;
+    justify-content: space-around;
+}
+.underline{
+    color: rgb(0, 102, 255);
+    text-decoration: underline;
+}
+.posts{
+    margin: 0 10px; 
+    flex-grow: 2
+}
+.add{
+    padding: 3px;
+    background-color: rgb(255, 209, 123);
+    box-shadow: 3px 3px 3px black;
+}

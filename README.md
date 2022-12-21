@@ -1,0 +1,1 @@
+This is a README for one of my first JavaScript assignments

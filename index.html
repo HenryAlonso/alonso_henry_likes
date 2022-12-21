@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Likes Project</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <h1 id="black">Network</h1>
+    <h2 id="feed">Your Feed</h2>
+
+        <!--Main Section-->
+        
+    <div class="main_section">
+        <div class="account">
+            <img src="./user-circle.png" alt="profile image">
+            <p class="underline">Add an avatar</p>
+            <p>James Doe</p>
+        </div>
+        <div class="posts">
+            <div class="content">
+                <div class="sidebyside">
+                    <p class="user">Neil M</p>
+                    <p><span id="neil_likes">9</span> like(s)</p>
+                    <button class="add" onclick="addLike(neil_likes)">Like</button>
+                </div>
+                <div>
+                    <p>I just set up this new discord bot, let me know what you all think. <span class="underline">link</span></p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="sidebyside">
+                    <p class="user">Nichole K</p>
+                    <p><span id="nichole_likes">12</span> like(s)</p>
+                    <button class="add" onclick="addLike(nichole_likes)">Like</button>
+                </div>
+                    <p>Just finished my <span class="underline">next comic</span>. check it out</p>
+            </div>
+            <div class="content">
+                <div class="sidebyside">
+                    <p class="user">Jim R</p>
+                    <p><span id="jim_likes">9</span> like(s)</p>
+                    <button class="add" onclick="addLike(jim_likes)">Like</button>
+                </div>
+                    <p>I can't stop listening to the <span class="underline">new album</span>. Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
